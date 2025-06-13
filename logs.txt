@@ -1,0 +1,35 @@
+
+> b77-autoparts@1.0.0 dev
+> vite
+
+[2m00:25:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+Port 5173 is in use, trying another one...
+
+  [32m[1mVITE[22m v6.3.5[39m  [2mready in [0m[1m462[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+Error: [31m  Failed to scan for dependencies from entries:
+  C:/Users/susan/OneDrive/Documentos/MeusProjetos/b77-autoparts/pecasb77autoparts/public/index.html
+
+  [39m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mThe JSX syntax extension is not currently enabled[0m
+
+    pecasb77autoparts/src/App.js:12:4:
+[37m      12 │     [32m<[37mRouter>
+         ╵     [32m^[0m
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+    at failureErrorWithLog (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:1463:15)
+    at C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:924:25
+    at runOnEndCallbacks (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:1303:45)
+    at buildResponseToResult (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:922:7)
+    at C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:934:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:933:54)
+    at handleRequest (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:626:17)
+    at handleIncomingPacket (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:651:7)
+    at Socket.readFromStdout (C:\Users\susan\OneDrive\Documentos\MeusProjetos\b77-autoparts\node_modules\esbuild\lib\main.js:579:7)
+^C

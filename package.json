@@ -1,0 +1,33 @@
+{
+  "name": "b77-autoparts",
+  "version": "1.0.0",
+  "description": "site de peças automotivas leves e pesados",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-9858/b77-autoparts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luiz-9858/b77-autoparts/issues"
+  },
+  "homepage": "https://github.com/Luiz-9858/b77-autoparts#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.3.5"
+  }
+}
